@@ -1,0 +1,8 @@
+    1  cd /myapp/
+    2  ls
+    3  cd 01-Docker/
+    4  ls
+    5  cd 02-Docker_Volumes/
+    6  ls
+    7  cat README.md 
+    8  history > 1.txt 
