@@ -32,7 +32,9 @@ kubeadm init --pod-network-cidr=192.168.0.0/16 --apiserver-advertise-address="17
 export KUBECONFIG=/etc/kubernetes/admin.conf
 
 
-#echo "******************* Deploying kubernetes - Calico Network ***********************"
+sleep 1 
+
+echo "******************* Deploying kubernetes - Calico Network ***********************"
 kubectl apply -f https://docs.projectcalico.org/archive/v3.13/manifests/calico.yaml
 
 #kubectl apply -f https://docs.projectcalico.org/manifests/calico.yaml
