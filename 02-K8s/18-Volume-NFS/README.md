@@ -7,6 +7,7 @@ mkdir /exports
 chown nobody:nogroup /exports
 ```
 
+## Edit the /etc/exports file & make the following Entry 
 ## NFS Export Path & Share Config
 ```
 root@kube-master:~/k8s-paypal-28-Dec-2020/26-Volumes-NFS# grep -i exports /etc/exports
